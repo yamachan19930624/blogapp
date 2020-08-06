@@ -1,0 +1,23 @@
+current directory: /Users/yamashitayuuki/blog-app/vendor/bundle/ruby/2.6.0/gems/hamlit-2.11.0/ext/hamlit
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20200805-44166-wvt83w.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yamashitayuuki/blog-app/vendor/bundle/ruby/2.6.0/gems/hamlit-2.11.0/ext/hamlit
+make "DESTDIR=" clean
+
+current directory: /Users/yamashitayuuki/blog-app/vendor/bundle/ruby/2.6.0/gems/hamlit-2.11.0/ext/hamlit
+make "DESTDIR="
+compiling hamlit.c
+In file included from hamlit.c:1:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby.h:33:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/ruby/ruby.h:2186:35: warning: unused parameter 'allow_transient' [-Wunused-parameter]
+rb_array_ptr_use_end(VALUE a, int allow_transient)
+                                  ^
+1 warning generated.
+compiling hescape.c
+linking shared-object hamlit/hamlit.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.Internal.sdk/usr/local/lib'
+
+current directory: /Users/yamashitayuuki/blog-app/vendor/bundle/ruby/2.6.0/gems/hamlit-2.11.0/ext/hamlit
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hamlit.bundle ./.gem.20200805-44166-10k3mm0/hamlit
